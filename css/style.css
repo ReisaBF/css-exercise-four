@@ -1,4 +1,55 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  text-align: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+  columns: 100px 1;
+}
+
+h1 {
+  margin-bottom: 30px; /* between paragraphs */
+  }
+
+@media screen and (min-width: 575px) {
+  body {
+    background-color: #dadada;
+    font-size: 3em;
+}
+
+  div {
+    margin: 1%;
+    width: 48%;
+ }
+
+  .container {
+    columns: 100px 2;
+}
+
+@media screen and (min-width: 991px) {
+  body {
+    background-color: #dadada;
+    font-size: 3em;
+}
+
+div {
+   margin: 1%;
+   width: 48%;
+ }
+
+  .container {
+    background-color: #dadada;
+    float: left;
+    margin: 1% 0;
+    width: 100%;
+    padding: 20px 25px;
+    columns: 100px 4;
 }
