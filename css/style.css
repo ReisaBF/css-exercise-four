@@ -3,114 +3,86 @@
 }
 
 body {
-  background-color: #dadada;
+  background-color: grey;
   font-size: 10px;
 }
 
 .container {
-  background-color: #dadada;
-  margin: 20px auto;
-  width: 100%;
+  margin: 50px auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-h2 {
-  font-family: sans-serif;
-  font-weight: 100;
-  font-size: 25px;
-  text-align: center;
-  padding: 20px;
+.preview {
+width: 450px;
+height: 400px;
 }
 
 h1 {
   margin: 1% 0;
   width: 100%;
-  font-size: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  font-family: inherit;
-  font-weight: bold;
+  font-size: 28px;
+    padding: 20px;
+    flex-wrap: wrap;
+      font-weight: 300;
 }
 
-
-.preview {
-  width: 275px;
-  height: 175px;
-  background-repeat: no-repeat;
-  padding: 10px;
-  background-size: 100%;
-  margin: auto;
+h2 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+  text-align: center;
+  padding: 50px;
 }
 
 .baku {
-  background-image: url("../images/baku.jpg");
+ background-image: url("../images/baku.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 .london {
-  background-image: url("../images/london.png");
+background-image: url("../images/london.png");
+ background-color: #cccccc;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 .madrid {
-  background-image: url("../images/madrid.jpg");
+background-image: url("../images/madrid.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 .rome {
-  background-image: url("../images/rome.jpg");
-  margin-top: -15px;
+background-image: url("../images/rome.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 
 
 
-@media screen and (min-width: 575px){
-
-  .baku {
-    background-image: url("../images/baku.jpg");
-    float: left;
-    top: 500px;
-  }
-
-  .london {
-    background-image: url("../images/london.png");
-  }
-
-  .madrid {
-    background-image: url("../images/madrid.jpg");
-  }
-
-  .rome {
-    background-image: url("../images/rome.jpg");
-    margin-top: -350px;
-}
-
-div.preview.rome {
-    float: right;
-    align-self: auto;
-  }
+@media screen and (min-width: 575px) {
+  div {
+   margin: 1% 0;
+   width: 48%;
+ }
+ .preview {
+ width: auto;
+ height: auto;
+ display: inline-block;
+ }
 }
 
 @media screen and (min-width: 991px){
-  .baku {
-    background-image: url("../images/baku.jpg");
-    float: left;
-    top: 500px;
+   div {
+    margin: 1% 0;
+    width: 23%;
   }
-
-  .london {
-    background-image: url("../images/london.png");
-  }
-
-  .madrid {
-    background-image: url("../images/madrid.jpg");
-  }
-
-  .rome {
-    background-image: url("../images/rome.jpg");
-    margin-top: -350px;
-}
-
-div.preview.rome {
-    float: right;
-    align-self: auto;
-  }
-
 }
