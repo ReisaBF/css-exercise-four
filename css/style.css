@@ -64,9 +64,10 @@ h2 {
 
 @media screen and (min-width: 575px) {
  .preview {
-   width: 48%;
-   height: 48%;
+   width: 45%;
+   height: 45%;
    display: inline-block;
+   margin: 10px;
  }
 
  .container {
@@ -78,10 +79,12 @@ h2 {
 
 @media screen and (min-width: 991px){
   .preview {
-  width: auto;
+  width: 22%;
   height: auto;
   display: inline-block;
+  margin: 10px;
   }
+
   .container {
     margin: 50px auto;
     width: 80%;
